@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-D9xkfLYt.css">
+  </head>
+  <body>
+    <header class="header-page">
+  <div class="container">
+    <nav class="header-nav">
+      <a href="/" class="header-logo">SNDB</a>
+      <ul class="page-nav">
+        <li><a href="#o-nas" class="link">O nas</a></li>
+        <li>
+          <a href="#sprava-nemovitosti" class="link">Sprava nemovitosti</a>
+        </li>
+        <li><a href="#Cena" class="link">Cena spravy</a></li>
+        <li class="tel-btn">
+          <div class="icon-phone">
+            <svg class="icon" width="18" height="18">
+              <use href="../img/sprite.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <a class="link" href="tel: +420 732 788 997">732 788 997</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero-container">
+  <div class="container">
+    <h1 class="hero">Správa nemovitostí bez starostí</h1>
+    <p class="hero-text">
+      Profesionalni správa a pronájem bytovych a nebytovych jednotek v Praze
+    </p>
+    <button class="hero-btn">Zjistit vic</button>
+  </div>
+</section>
+
+      <section class="about-container">
+  <div class="container">
+    <h2 class="about-header">O nas</h2>
+    <div class="cons-box">
+      <p class="about-text">
+        Pusobime na pražskem trhu spravy a pronajmu nemovitosti od roku 1998
+      </p>
+      <ul>
+        <li class="cons-text">
+          <div class="icon-checkmark">
+            <svg class="icon" width="25" height="25">
+              <use href="../img/sprite.svg#icon-checkmark"></use>
+            </svg>
+          </div>
+          Spolehlivost
+        </li>
+        <li class="cons-text">
+          <div class="icon-checkmark">
+            <svg class="icon" width="25" height="25">
+              <use href="../img/sprite.svg#icon-checkmark"></use>
+            </svg>
+          </div>
+          Transparentnost
+        </li>
+        <li class="cons-text">
+          <div class="icon-checkmark">
+            <svg class="icon" width="25" height="25">
+              <use href="../img/sprite.svg#icon-checkmark"></use>
+            </svg>
+          </div>
+          Profesionalita
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="services-container">
+  <div class="container">
+    <h2 class="services-header">Služby<h2>
+        <div class="services-items">
+        <div class="services-item">
+            <svg class="icon service-icon" width="55" height="55">
+                <use href="../img/sprite.svg#icon-office"></use>
+            </svg>
+            <h4 class="service-name">Sprava najemnich domu a bytu</h4>
+            <p class="service-text">Efektivni vedeni spravy bytoveho fondu, pronajem bytovych a nebytovych prostor</p>
+        </div>
+        <div class="services-item">
+            <svg class="icon service-icon" width="55" height="55">
+                <use href="../img/sprite.svg#icon-wrench"></use>
+            </svg>
+            <h4 class="service-name">Udržba nemovitosti</h4>
+            <p class="service-text">Efektivni vedeni spravy bytoveho fondu, pronajem bytovych a nebytovych prostor</p>
+        </div>
+        <div class="services-item">
+            <svg class="icon service-icon" width="55" height="55">
+                <use href="../img/sprite.svg#icon-folder-open"></use>
+            </svg>
+            <h4 class="service-name">Finančni sprava bytu a domu</h4>
+            <p class="service-text">Efektivni vedeni spravy bytoveho fondu, pronajem bytovych a nebytovych prostor</p>
+        </div>
+        <div class="services-item">
+            <svg class="icon service-icon" width="55" height="55">
+                <use href="../img/sprite.svg#icon-users"></use>
+            </svg>
+            <h4 class="service-name">Vyhledavani spolehlyvich najemcu</h4>
+            <p class="service-text">Efektivni vedeni spravy bytoveho fondu, pronajem bytovych a nebytovych prostor</p>
+        </div>
+        </div>
+  </div>
+</section>
+
+      
+      <section class="calc-container">
+  <div class="container">
+    <h3 class="calculate-text">
+      Spočitejte si přibližnou cenu spravy Vaši nemovitosti
+    </h3>
+    <div class="btn-items">
+      <button class="btn-calc" onclick="showForm('byt')">Byt</button>
+      <button class="btn-calc" onclick="showForm('dum')">Dům</button>
+    </div>
+  </div>
+
+  <div class="form-container" id="formContainer"></div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <p class="footer-desc">
+      Made with ✨ by
+      <a
+        class="footer-link"
+        href="https://goit.global/ua/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GoIT team
+      </a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
