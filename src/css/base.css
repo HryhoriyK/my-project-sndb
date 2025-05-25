@@ -26,7 +26,6 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
-  /* background-color: #191970; */
 }
 
 main {
@@ -37,11 +36,9 @@ main:has(.back-link) {
 }
 
 button {
-  transition: transform 0.5s ease-in-out;
+  transition: border 0.3s ease;
 }
 
 button:hover {
-  transform: scale(1.2);
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(45deg, yellow, #ff4b2b);
+  border: 2px solid white;
 }
