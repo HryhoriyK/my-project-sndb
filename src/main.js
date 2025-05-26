@@ -1,19 +1,19 @@
 const cenyZaM2 = {
-    "Praha 1": 450,
-    "Praha 2": 420,
-    "Praha 3": 400,
-    "Praha 4": 380,
-    "Praha 5": 370,
-    "Praha 6": 360,
-    "Praha 7": 350,
-    "Praha 8": 340,
-    "Praha 9": 330,
-    "Praha 10": 320
+    "Praha 1": 492,
+    "Praha 2": 470,
+    "Praha 3": 460,
+    "Praha 4": 418,
+    "Praha 5": 433,
+    "Praha 6": 417,
+    "Praha 7": 441,
+    "Praha 8": 417,
+    "Praha 9": 421,
+    "Praha 10": 405
 };
 
 function showForm(type) {
     const container = document.getElementById("formContainer");
-    container.innerHTML = ""; // Vyčištění kontejneru
+    container.innerHTML = "";
 
     if (type === "byt") {
         container.innerHTML = `
@@ -48,7 +48,7 @@ function showForm(type) {
 
 function updateCena() {
     const lokalita = document.getElementById("lokalita").value;
-    return cenyZaM2[lokalita] || 350; // Výchozí hodnota
+    return cenyZaM2[lokalita] || 350;
 }
 
 function calculateByt() {

@@ -26,7 +26,7 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #191970;
   position: relative;
   margin-left: 15px;
 }
@@ -35,7 +35,7 @@
   content: '';
   width: 5px;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: #191970;
   position: absolute;
   left: -15px;
 }
@@ -44,14 +44,14 @@
   content: '';
   width: 5px;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: #191970;
   position: absolute;
   right: -15px;
 }
 
 .link {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
