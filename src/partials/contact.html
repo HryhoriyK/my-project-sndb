@@ -1,0 +1,44 @@
+<section class="contact-container">
+  <div class="container">
+    <form action="submit.php" method="post">
+      <label class="contact-text" for="name">Jméno:</label>
+      <input
+        class="contact-input"
+        type="text"
+        id="name"
+        name="name"
+        required
+      /><br /><br />
+
+      <label class="contact-text" for="phone">Telefon:</label>
+      <input
+        class="contact-input"
+        type="tel"
+        id="phone"
+        name="phone"
+        required
+      /><br /><br />
+
+      <label class="contact-text" for="email">Email:</label>
+      <input
+        class="contact-input"
+        type="email"
+        id="email"
+        name="email"
+        required
+      /><br /><br />
+
+      <label class="contact-text" for="comment">Komentář:</label><br />
+      <textarea
+        class="comment-input"
+        id="comment"
+        name="comment"
+        rows="4"
+        cols="30"
+      ></textarea
+      ><br /><br />
+
+      <button class="btn-submit" type="submit">Odeslat</button>
+    </form>
+  </div>
+</section>

@@ -82,3 +82,8 @@
     color: #fff;
     margin: 0 auto;
 }
+
+.input-area::-webkit-outer-spin-button,
+.input-area::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

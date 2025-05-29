@@ -1,0 +1,58 @@
+.contact-container {
+    padding: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+}
+.contact-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        margin-bottom: 6px;
+}
+
+.contact-input{
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 400px;
+        height: 40px;
+        margin-bottom: 12px;
+        padding: 4px 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+.comment-input{
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 400px;
+        height: 80px;
+        margin-bottom: 12px;
+        padding: 4px 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+.btn-submit{
+    width: 140px;
+        height: 40px;
+        background-color: #FFD700;
+        border: none;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        margin: 20px auto;
+}
