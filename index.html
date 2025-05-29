@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Správa nájemnich domu a bytu</title>
-    <script type="module" crossorigin src="/my-project-sndb/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/my-project-sndb/assets/index-2GGqdWvG.css">
+    <script src="/main.js"></script>
+    <link rel="stylesheet" crossorigin href="/my-project-sndb/assets/index-Bzr1VuA8.css">
   </head>
   <body>
     <header class="header-page">
@@ -157,7 +157,7 @@
             <svg class="icon service-icon" width="55" height="55">
                 <use href="/my-project-sndb/assets/sprite-FlWnGSz8.svg#icon-users"></use>
             </svg>
-            <h4 class="service-name">Nájemci</h4>
+            <h4 class="service-name">Pronájem</h4>
             <p class="service-text">Vyhledání nových nájemníků, uzavírání smluv, předávání a přebírání jednotek</p>
         </div>
         </div>
@@ -179,6 +179,51 @@
   <div class="form-container" id="formContainer"></div>
 </section>
 
+      <section class="contact-container">
+  <div class="container">
+    <form action="submit.php" method="post">
+      <label class="contact-text" for="name">Jméno:</label>
+      <input
+        class="contact-input"
+        type="text"
+        id="name"
+        name="name"
+        required
+      /><br /><br />
+
+      <label class="contact-text" for="phone">Telefon:</label>
+      <input
+        class="contact-input"
+        type="tel"
+        id="phone"
+        name="phone"
+        required
+      /><br /><br />
+
+      <label class="contact-text" for="email">Email:</label>
+      <input
+        class="contact-input"
+        type="email"
+        id="email"
+        name="email"
+        required
+      /><br /><br />
+
+      <label class="contact-text" for="comment">Komentář:</label><br />
+      <textarea
+        class="comment-input"
+        id="comment"
+        name="comment"
+        rows="4"
+        cols="30"
+      ></textarea
+      ><br /><br />
+
+      <button class="btn-submit" type="submit">Odeslat</button>
+    </form>
+  </div>
+</section>
+
     </main>
     <footer class="footer">
   <div class="container">
@@ -195,7 +240,6 @@
     </p>
   </div>
 </footer>
-
 
   </body>
 </html>
