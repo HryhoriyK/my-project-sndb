@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Správa nájemnich domu a bytu</title>
-    <script src="/main.js"></script>
+    <script type="module" crossorigin src="/my-project-sndb/index.js"></script>
     <link rel="stylesheet" crossorigin href="/my-project-sndb/assets/index-Bzr1VuA8.css">
   </head>
   <body>
@@ -171,7 +171,9 @@
       Spočitejte si přibližnou cenu spravy Vaši nemovitosti
     </h3>
     <div class="btn-items">
-      <button class="btn-calc" onclick="showForm('byt')">Byt</button>
+      <button class="btn-calc" id="btnByt" onclick="showForm('byt')">
+        Byt
+      </button>
       <button class="btn-calc" onclick="showForm('dum')">Dům</button>
     </div>
   </div>
