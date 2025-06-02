@@ -13,7 +13,8 @@ export function showForm(type) {
              </select><br>
              <label class="input-text">Zadej m²: </label>
              <input class="input-area" type="number" id="plochaByt"><br>
-             <button class="btn-count" onclick="calculateByt()">Vypočítat cenu</button>
+             <button class="btn-count" id="calculateBtn" onclick="calculateByt()">Vypočítat cenu</button>
+             <span class="loader" id="loader" style="display: none;"></span>
              <p class="result" id="vysledekByt"></p>
              <p class="result" id="najemByt"></p>
          `;
@@ -29,7 +30,8 @@ export function showForm(type) {
              <input class="input-area" type="number" id="pocetNebyt"><br>
              <label class="input-text">Celková plocha (m²): </label>
              <input class="input-area" type="number" id="plochaDum"><br>
-             <button class="btn-count" onclick="calculateDum()">Vypočítat cenu</button>
+             <button class="btn-count" id="calculateDumBtn" onclick="calculateDum()">Vypočítat cenu</button>
+             <span class="loader" id="loader" style="display: none;"></span>
              <p class="result" id="vysledekDum"></p>
              <p class="result" id="najemDum"></p>
          `;
