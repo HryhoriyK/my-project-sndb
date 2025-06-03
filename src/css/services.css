@@ -30,15 +30,17 @@
 
 .service-name {
     font-weight: 700;
-        font-size: 22px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 60px;
 }
 
 .service-text {
     font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.5;
         letter-spacing: 0.04em;
 }
