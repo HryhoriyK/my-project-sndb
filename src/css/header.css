@@ -55,7 +55,7 @@
 
 .link {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -64,7 +64,9 @@
   margin: 18px 0;
 }
 
-
+.link:hover{
+  color:#191970;
+}
 
 .contact-us {
   font-weight: 500;
