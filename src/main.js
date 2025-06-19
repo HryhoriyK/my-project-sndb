@@ -18,22 +18,29 @@ window.showForm = showForm;
 window.calculateByt = calculateByt;
 window.calculateDum = calculateDum;
 
-  const burgerBtn = document.querySelector('[data-menu-open]');
-  
-  const menu = document.querySelector('[data-menu]');
-  
-  const closeBtn = document.querySelector('[data-menu-close]');
+    const burgerBtn = document.querySelector('[data-menu-open]');
+    const menu = document.querySelector('[data-menu]');
+    const closeBtn = document.querySelector('[data-menu-close]');
+    const navLinks = document.querySelectorAll('.mobile-menu-nav .link');
 
-  burgerBtn.addEventListener('click', () => {
-    menu.classList.add('is-open');
-    document.body.classList.add('menu-open');
-  });
-  
-  closeBtn.addEventListener('click', () => {
-    menu.classList.remove('is-open');
-    document.body.classList.remove('menu-open');
-  });
-  
+    burgerBtn.addEventListener('click', () => {
+        menu.classList.add('is-open');
+        document.body.classList.add('menu-open');
+    });
+    
+    closeBtn.addEventListener('click', () => {
+        menu.classList.remove('is-open');
+        document.body.classList.remove('menu-open');
+    });
+    
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+        const menu = document.querySelector('[data-menu]');
+        menu.classList.remove('is-open');
+        document.body.classList.remove('menu-open');
+        });
+    });
+
 
 
 

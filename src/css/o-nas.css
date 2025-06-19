@@ -1,38 +1,40 @@
 .about-container{
     background-color: #F8F8FF;
-    padding-top: 35px;
+    padding: 35px 0 35px 0;
 }
 
 .about-header {
-    font-weight: 500;
-        font-size: 26px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     margin-bottom: 20px;
 }
 
 .cons-box{
     display: flex;
     flex-direction: column;
-    /* gap: 120px; */
     gap: 40px;
 }
 
 .about-text {
     font-weight: 400;
-        font-size: 18px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-    /* width: 758px; */
-    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .cons-text {
     font-weight: 500;
-        font-size: 22px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     display: flex;
     gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-container {
+        padding: 45px 0 45px 0;   
+    }
 }

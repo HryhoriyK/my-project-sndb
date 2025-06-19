@@ -1,6 +1,6 @@
 .hero-container {
     background-color: #191970;
-    padding-top: 35px;
+    padding: 35px 0 35px 0;
 }
 
 .hero {
@@ -33,5 +33,12 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-container {
+        padding: 45px 0 45px 0;   
+    }
+
+    
 }

@@ -137,3 +137,27 @@
 body.menu-open {
   overflow: hidden;
 }
+
+@media only screen and (min-width: 768px) {
+  .page-nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .burger-btn{
+    display: none;
+  }
+
+  .contact-us{
+    display: none;
+  }
+
+  .phone-btn{
+    background-color: #FFD700;
+    border: none;
+    border-radius: 8px;
+    width: 38px;
+    height: 38px;
+  }
+}
