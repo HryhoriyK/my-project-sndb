@@ -91,3 +91,49 @@
   border: none;
   text-transform: uppercase;
 }
+
+.mobile-menu{
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(220,220,220, 1);
+  opacity: 0;
+  transform: translateX(100%);
+
+  pointer-events: none;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.mobile-menu.is-open{
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+.mobile-menu-container{
+  position: relative;
+  padding-top: 72px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-menu-close{
+  width: 35px;
+  height: 35px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 22px;
+  fill: #FFD700;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
