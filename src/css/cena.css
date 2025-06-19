@@ -1,11 +1,11 @@
 .calc-container {
   background-color: #191970;
-    padding: 80px;
+    padding-top:  35px;
 }
 
 .calculate-text{
-  font-weight: 700;
-    font-size: 36px;
+  font-weight: 500;
+    font-size: 32px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
@@ -34,8 +34,9 @@
 .form-container {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  /* width: 350px; */
   margin: 36px auto;
+  padding: 0 15px 35px 15px;
 }
 
 .input-text {
@@ -50,7 +51,7 @@
 .input-area {
   border: 1px solid #808080;
     border-radius: 4px;
-    width: 360px;
+    /* width: 360px; */
     height: 40px;
     margin-bottom: 12px;
     padding: 4px 8px;
@@ -76,7 +77,7 @@
 
 .result {
   font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;

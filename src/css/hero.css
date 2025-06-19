@@ -1,25 +1,25 @@
 .hero-container {
     background-color: #191970;
-    padding: 60px;
+    padding-top: 35px;
 }
 
 .hero {
-    font-weight: 700;
-        font-size: 46px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-    width: 500px;
-    margin-bottom: 20px;
-}
-
-.hero-text {
     font-weight: 500;
         font-size: 26px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        width: 500px;
+    /* width: 500px; */
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        /* width: 500px; */
         margin-bottom: 30px;
 }
 
@@ -30,7 +30,8 @@
     border: none;
     border-radius: 8px;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-bottom: 25px;
 }

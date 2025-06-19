@@ -1,30 +1,29 @@
 .for-who-container {
     background-color: #191970;
-    padding: 80px;
+    padding-top: 35px;
 }
 
 .for-who-header{
-    font-weight: 700;
-    font-size: 42px;
+    font-weight: 500;
+    font-size: 26px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     color: #fff;
     text-align: center;
 }
 
 .for-who-items {
     display: flex;
-    gap: 100px;
+    gap: 35px;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 35px;
 }
 
 .for-who-item {
     background-color: #fff;
-    padding: 35px;
-    width: 400px;
-    height: 450px;
+    padding: 15px;
     border-radius: 15px;
     border: 2px solid transparent;
 }
@@ -32,14 +31,14 @@
 .for-who-name {
     font-weight: 600;
     font-size: 22px;
-    line-height: 1.0;
+    line-height: 1.2;
     letter-spacing: 0.04em;
     padding-bottom: 20px; 
 }
 
 .for-who-text {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.3;
     letter-spacing: 0.04em;
 }

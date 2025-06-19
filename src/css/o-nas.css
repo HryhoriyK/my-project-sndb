@@ -1,11 +1,11 @@
 .about-container{
     background-color: #F8F8FF;
-    padding: 100px;
+    padding-top: 35px;
 }
 
 .about-header {
-    font-weight: 700;
-        font-size: 46px;
+    font-weight: 500;
+        font-size: 26px;
         line-height: 1.5;
         letter-spacing: 0.04em;
     margin-bottom: 20px;
@@ -13,7 +13,9 @@
 
 .cons-box{
     display: flex;
-    gap: 120px;
+    flex-direction: column;
+    /* gap: 120px; */
+    gap: 40px;
 }
 
 .about-text {
@@ -21,13 +23,13 @@
         font-size: 18px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-    width: 758px;
+    /* width: 758px; */
     padding-bottom: 5px;
 }
 
 .cons-text {
-    font-weight: 600;
-        font-size: 26px;
+    font-weight: 500;
+        font-size: 22px;
         line-height: 1.5;
         letter-spacing: 0.04em;
     margin-bottom: 20px;

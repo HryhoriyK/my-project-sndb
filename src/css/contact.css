@@ -1,12 +1,12 @@
 .contact-container {
-    padding: 80px;
+    padding-top: 35px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .contact-header {
@@ -28,7 +28,7 @@ form {
 .contact-input{
     border: 1px solid #808080;
         border-radius: 4px;
-        width: 400px;
+        /* width: 400px; */
         height: 40px;
         margin-bottom: 12px;
         padding: 4px 8px;
@@ -42,7 +42,7 @@ form {
 .comment-input{
     border: 1px solid #808080;
         border-radius: 4px;
-        width: 400px;
+        /* width: 400px; */
         height: 80px;
         margin-bottom: 12px;
         padding: 4px 8px;

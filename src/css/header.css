@@ -1,6 +1,4 @@
 .header-page {
-  /* border-bottom: 1px solid #191970;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08); */
   background: #fff;
   position: sticky;
   top: 0;
@@ -15,13 +13,23 @@
 }
 
 .page-nav {
-  display: flex;
+  /* display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: center; */
+  display: none;
 }
 
 .icon {
   fill: #FFD700;
+}
+
+.burger-icon{
+  fill: #FFD700;
+}
+
+.burger-btn{
+  background: transparent;
+  border: none;
 }
 
 .header-logo {
@@ -33,6 +41,8 @@
   color: #191970;
   position: relative;
   margin-left: 15px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .header-logo::before {
