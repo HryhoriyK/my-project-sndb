@@ -1,6 +1,13 @@
 .hero-container {
     background-color: #191970;
-    padding: 35px 0 35px 0;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero-img-pc{
+    display: none;
 }
 
 .hero {
@@ -37,8 +44,27 @@
 
 @media only screen and (min-width: 768px) {
     .hero-container {
-        padding: 45px 0 45px 0;   
+        padding-top: 45px; 
+        /* flex-direction: row; */
     }
 
+    .hero-img-mobile{
+        display: none;
+    }
     
+    .hero-img-pc{
+        display: block;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .hero-container{
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .hero{
+        margin-top: 45px;
+    }
 }
