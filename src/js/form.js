@@ -1,5 +1,4 @@
 import { cenyZaM2 } from "./ceny.js";
-import { updateCena } from "./calculations.js";
 
 export function showForm(type) {
      const container = document.getElementById("formContainer");
